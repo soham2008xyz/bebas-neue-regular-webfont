@@ -1,11 +1,12 @@
 @font-face {
-	font-family: 'BebasNeuewebfont';
-	src: url('./BebasNeuewebfont.eot');
-	src: local('BebasNeuewebfont'), url('./BebasNeuewebfont.woff') format('woff'), url('./BebasNeuewebfont.ttf') format('truetype');
-}
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1962">Text with this font applied</p> */
-.fontsforweb_fontid_1962 {
-	font-family: 'BebasNeuewebfont' !important;
-}
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-/* Font downloaded from FontsForWeb.com */
+}
